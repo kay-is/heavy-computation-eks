@@ -5,9 +5,8 @@
     "heavy-computation-eks": "bin/heavy-computation-eks.js"
   },
   "scripts": {
-    "build": "echo \"The build step is not required when using JavaScript!\" && exit 0",
-    "cdk": "cdk",
-    "test": "jest"
+    "bootstrap": "cdk bootstrap",
+    "deploy": "cdk deploy"
   },
   "devDependencies": {
     "@aws-cdk/assert": "1.66.0",
