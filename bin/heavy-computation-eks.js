@@ -6,4 +6,4 @@ const {
 } = require("../lib/heavy-computation-eks-stack");
 
 const app = new cdk.App();
-new HeavyComputationEksStack(app, "HeavyComputationEksStack2");
+new HeavyComputationEksStack(app, "HeavyComputationEksStack");
